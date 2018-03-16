@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Project 1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="Assets/Project1.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+</head>
+<!--comment-->
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+      <img id="logo" src="Assets/Images/logo-turf.png">
+    </a>
+    <div id="cityName"></div>
+    </div>
+  </nav>
+
+  <!-- cards for categories using bootsnipp-->
+
+
+  <div class="row">
+    <div class="col-sm-12"></div>
+  </div>
+
+  <div class="container">
+    <div id="spacer" class="row">
+      <div class="col-sm-4">
+        <div class="card hovercard1">
+          <div class="cardheader">
+          </div>
+          <div class="avatar">
+            <button id="coffeeButton" type="button" data-toggle="collapse" data-target="#coffeeDiv">
+              <img alt="hashtag" src="Assets/Images/coffee.png">
+            </button>
+          </div>
+          <div class="info">
+            <div class="title">
+              <h5>Coffee
+                <h5>
+            </div>
+            <div class="desc">Check out the city's trendiest coffee spots </div>
+          </div>
+          <div id="coffeeDiv" class="collapse rounded">
+            <!--coffee here-->
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-4">
+        <div class="card hovercard2">
+          <div class="cardheader">
+          </div>
+          <div class="avatar">
+            <button id="weatherButton" type="button" data-toggle="collapse" data-target="#weatherDiv">
+              <img alt="hashtag" src="Assets/Images/weather.png">
+            </button>
+          </div>
+          <div class="info">
+            <div class="title">
+              <h5>Weather
+                <h5>
+            </div>
+            <div class="desc">Check the weather before you start your day </div>
+          </div>
+          <div id="weatherDiv" class="collapse rounded">
+            <!--weather goes here-->
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="card hovercard3">
+          <div class="cardheader">
+          </div>
+          <div class="avatar">
+            <button type="housingButton" id="housingButton" data-toggle="collapse" data-target="#housingDiv">
+              <img alt="hashtag" src="Assets/Images/house.png">
+            </button>
+          </div>
+          <div class="info">
+            <div class="title">
+              <h5>Housing
+                <h5>
+            </div>
+            <div class="desc">Learn about cost of living in this area </div>
+          </div>
+          <div id="housingDiv" class="collapse rounded">
+            <!--housing goes here-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+
+        <div class="card hovercard4">
+          <div class="cardheader">
+          </div>
+          <div class="avatar">
+            <button id="musicButton" type="button" data-toggle="collapse" data-target="#musicDiv">
+              <img alt="hashtag" src="Assets/Images/music.png">
+            </button>
+          </div>
+          <div class="info">
+            <div class="title">
+              <h5>Music Events
+                <h5>
+            </div>
+            <div class="desc">Take a dive into the music scene </div>
+          </div>
+          <div id="musicDiv" class="collapse rounded">
+            <!--music stuff goes here-->
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+
+        <div class="card hovercard5">
+          <div class="cardheader">
+          </div>
+          <div class="avatar">
+            <button id="foodButton" type="button" data-toggle="collapse" data-target="#foodDiv">
+              <img alt="hashtag" src="Assets/Images/food.png">
+            </button>
+          </div>
+          <div>
+            <div class="info">
+              <div class="title">
+                <h5>Food
+                  <h5>
+              </div>
+
+              <div class="desc">Find the best food spots </div>
+            </div>
+            <div id="foodDiv" class="collapse rounded">
+              <!--food stuff will go in here-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+
+        <div class="card hovercard6">
+          <div class="cardheader">
+          </div>
+          <div class="avatar">
+            <button id="jobButton" type="button" data-toggle="collapse" data-target="#jobDiv">
+              <img alt="hashtag" src="Assets/Images/job.png">
+            </button>
+          </div>
+          <div class="info">
+            <div class="title">
+              <h5>Job Fairs
+                <h5>
+            </div>
+            <div class="desc">Attend a job fair </div>
+          </div>
+          <div id="jobDiv" class="collapse rounded">
+            <!--job fair goes here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end container -->
+  </div>
+
+
+  <script src="cards.js"></script>
+
+</body>
+
+</html>

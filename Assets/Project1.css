@@ -1,0 +1,484 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  margin-left: auto;
+  margin-right: auto;
+}
+li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.bg-light {
+  background-color: #f4f4f4 !important;
+}
+nav a:hover {
+  color: #2adddd !important;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+#searchBar {
+  align: right;
+  list-style: none;
+}
+.btn-outline-success {
+  color: #3399ff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #3399ff;
+}
+.btn-outline-success:hover {
+  background-color: #3399ff;
+  border-color: #3399ff;
+  color: #ffffff;
+}
+
+/*//cards with categories*/
+
+.card.hovercard1 {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+#dropDown {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: 0;
+}
+.card.hovercard1 .cardheader {
+  background: url("Images/coffeeplace.jpg");
+  background-size: cover;
+  height: 145px;
+}
+
+.card.hovercard1 .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.card.hovercard1 .avatar img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.card.hovercard1 .info {
+  padding: 4px 8px 10px;
+}
+
+.card.hovercard1 .info .title {
+  font-size: 20px;
+  line-height: 1;
+  margin: 10px;
+  vertical-align: middle;
+  font-style: bold;
+}
+#cardTitle {
+  color: #2adddd !important;
+  font-style: bold;
+}
+
+.card.hovercard1 .info .desc {
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 20px;
+  color: #9a9a9a;
+  text-overflow: ellipsis;
+  margin: 5px;
+}
+
+.card.hovercard1 .bottom {
+  padding: 0 20px;
+  margin-bottom: 17px;
+}
+
+.btn {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  line-height: 18px;
+}
+
+#spacer {
+  padding: 30px 0px 25px 0px;
+}
+
+/*////spacer////*/
+
+.card.hovercard5 {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.card.hovercard5 .cardheader {
+  background: url("Images/food.jpg");
+  background-size: cover;
+  height: 145px;
+}
+
+.card.hovercard5 .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.card.hovercard5 .avatar img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.card.hovercard5 .info {
+  padding: 4px 8px 10px;
+}
+
+.card.hovercard5 .info .title {
+  font-size: 20px;
+  line-height: 1;
+  margin: 10px;
+  vertical-align: middle;
+  font-style: bold;
+}
+#cardTitle {
+  color: #2adddd !important;
+  font-style: bold;
+}
+
+.card.hovercard5 .info .desc {
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 20px;
+  color: #9a9a9a;
+  text-overflow: ellipsis;
+  margin: 5px;
+}
+
+.card.hovercard5 .bottom {
+  padding: 0 20px;
+  margin-bottom: 17px;
+}
+
+/* SPACER */
+
+.card.hovercard3 {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.card.hovercard3 .cardheader {
+  background: url("Images/housing.jpg");
+  background-size: cover;
+  height: 145px;
+}
+
+.card.hovercard3 .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.card.hovercard3 .avatar img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.card.hovercard3 .info {
+  padding: 4px 8px 10px;
+}
+
+.card.hovercard3 .info .title {
+  font-size: 20px;
+  line-height: 1;
+  margin: 10px;
+  vertical-align: middle;
+  font-style: bold;
+}
+#cardTitle {
+  color: #2adddd !important;
+  font-style: bold;
+}
+
+.card.hovercard3 .info .desc {
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 20px;
+  color: #9a9a9a;
+  text-overflow: ellipsis;
+  margin: 5px;
+}
+
+.card.hovercard3 .bottom {
+  padding: 0 20px;
+  margin-bottom: 17px;
+}
+
+/* SPACER */
+
+.card.hovercard4 {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.card.hovercard4 .cardheader {
+  background: url("Images/events.jpg");
+  background-size: cover;
+  height: 145px;
+}
+
+.card.hovercard4 .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.card.hovercard4 .avatar img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.card.hovercard4 .info {
+  padding: 4px 8px 10px;
+}
+
+.card.hovercard4 .info .title {
+  font-size: 20px;
+  line-height: 1;
+  margin: 10px;
+  vertical-align: middle;
+  font-style: bold;
+}
+#cardTitle {
+  color: #2adddd !important;
+  font-style: bold;
+}
+
+.card.hovercard4 .info .desc {
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 20px;
+  color: #9a9a9a;
+  text-overflow: ellipsis;
+  margin: 5px;
+}
+
+.card.hovercard4 .bottom {
+  padding: 0 20px;
+  margin-bottom: 17px;
+}
+/* SPACER */
+
+.card.hovercard6 {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.card.hovercard6 .cardheader {
+  background: url("Images/jobfair.jpg");
+  background-size: cover;
+  height: 145px;
+}
+
+.card.hovercard6 .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.card.hovercard6 .avatar img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.card.hovercard6 .info {
+  padding: 4px 8px 10px;
+}
+
+.card.hovercard6 .info .title {
+  font-size: 20px;
+  line-height: 1;
+  margin: 10px;
+  vertical-align: middle;
+  font-style: bold;
+}
+#cardTitle {
+  color: #2adddd !important;
+  font-style: bold;
+}
+
+.card.hovercard6 .info .desc {
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 20px;
+  color: #9a9a9a;
+  text-overflow: ellipsis;
+  margin: 5px;
+}
+
+.card.hovercard6 .bottom {
+  padding: 0 20px;
+  margin-bottom: 17px;
+}
+
+/* SPACER */
+
+.card.hovercard2 {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.card.hovercard2 .cardheader {
+  background: url("Images/weatherimage.jpg");
+  background-size: cover;
+
+  height: 145px;
+}
+
+.card.hovercard2 .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.card.hovercard2 .avatar img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.card.hovercard2 .info {
+  padding: 4px 8px 10px;
+}
+
+.card.hovercard2 .info .title {
+  font-size: 20px;
+  line-height: 1;
+  margin: 10px;
+  vertical-align: middle;
+  font-style: bold;
+}
+#cardTitle {
+  color: #2adddd !important;
+  font-style: bold;
+}
+
+.card.hovercard2 .info .desc {
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 20px;
+  color: #9a9a9a;
+  text-overflow: ellipsis;
+  margin: 5px;
+}
+
+.card.hovercard2 .bottom {
+  padding: 0 20px;
+  margin-bottom: 17px;
+}
+
+#logo {
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+}
+#cityName {
+  margin: auto;
+  font-size: 36px;
+  font-family: "Oswald", sans-serif;
+  font-weight: lighter;
+  color: #2adddd;
+}
+
+.food-img,
+.coffee-img,
+.music-img,
+.job-img,
+.zillow-img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.heading {
+  font-size: 18px;
+}
+
+a,
+b {
+  color: grey;
+}
+
+a:hover {
+  color: #2adddd;
+}
+
+button:focus,
+input[type="button"]:focus {
+  outline: none;
+}
+
+h5 {
+  color: #2adddd;
+}
