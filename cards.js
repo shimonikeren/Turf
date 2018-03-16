@@ -273,7 +273,7 @@ function housing() {
   $("#housingDiv").append(
     "<a target = 'blank' href = '" +
       zillowLink +
-      "'><img class = 'zillow-img' src='Assets/images/zillow.png'></a>"
+      "'><img class = 'zillow-img' src='Assets/Images/Zillow.png'></a>"
   );
 }
 
